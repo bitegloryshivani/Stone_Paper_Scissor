@@ -10,11 +10,11 @@ opponent_point = 0
 your_point = 0
 
 print(" \t \t \t \t Stone,Paper,Scissor Game\n \n")
-print("s for Stone \np for Paper \nsc for Scissor \n")
+print("st for Stone \np for Paper \nsc for Scissor \n")
 
 
 while no_of_chance < chance:
-    input1 = input('Snake,Water,Gun:')
+    input1 = input('Stone,Paper,Scissor')
     random1 = random.choice(list)
 
     if input1 == random1:
